@@ -5,7 +5,8 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.print("Пожалуйста, введите стоимость вашего билета: ");
         int ticket_price = in.nextInt();
-        int bonus_miles = ticket_price / 20;
+        int divider = 20;
+        int bonus_miles = ticket_price / divider;
         System.out.println(bonus_miles);
     }
 }
